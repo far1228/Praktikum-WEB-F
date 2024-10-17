@@ -1,0 +1,101 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6d9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the to-do list */
+.container {
+    background-color: #64949e;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: auto;
+}
+
+/* Heading styling */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f0f4f8;
+}
+
+/* Input container and styling */
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex: 1;
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Styling for the task list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid #f0f4f8;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.edit-button, .delete-button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-button {
+    background-color: #065858; /* Yellow color */
+    color: white;
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: #FF3333; /* Red color */
+    color: white;
+}
+
+/* Optional: Add hover effect */
+.edit-button:hover {
+    background-color: #3fcfb0;
+}
+
+.delete-button:hover {
+    background-color: #e60000;
+}
